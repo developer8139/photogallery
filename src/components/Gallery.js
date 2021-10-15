@@ -11,6 +11,9 @@ export default class Gallery extends Component {
         return(
             <div className="grid-container">
                 <div className="picture-grid">
+                <div className="input-container">
+                    <input type="file"/>
+                </div>
                     <h1 className="title">Gallery</h1>
                     {this.state.pictures !== undefined ? this.state.pictures.map(pictures => <Picture pic={pictures.picture}/>) : null}
                 </div>

@@ -1,28 +1,33 @@
+import sunshineMountain from './sunshine-mountain.jpg';
+import manMountain from './man-mountain.jpg'
+import desertMoutain from './desert-mountain.jpg';
+import colorfulLandscape from './colorful-landscape.jpg';
+
 export const pictures = [
     {
-        title: '',
-        picture: '',
-        text: '',
+        title: 'Sunshine Mountain',
+        picture: sunshineMountain,
+        text: 'This picture is absolutly stunning. It was taken by the photographer Sagui Andrea. This shows the sunrise coming over the mountains in the background. In the forground he has lush brush and giant rock that is part of the mountian he is standing on.',
         flipped: false,
         id: 1
     },
     {
-        title: '',
-        picture: '',
+        title: 'Man Looking at Mountains',
+        picture: manMountain,
         text: '',
         flipped: false,
         id: 2
     },
     {
-        title: '',
-        picture: '',
+        title: 'Desert Mountain',
+        picture: desertMoutain,
         text: '',
         flipped: false,
         id: 3
     },
     {
-        title: '',
-        picture: '',
+        title: 'Colors of Nature',
+        picture: colorfulLandscape,
         text: '',
         flipped: false,
         id: 4
