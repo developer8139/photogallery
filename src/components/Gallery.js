@@ -15,7 +15,7 @@ export default class Gallery extends Component {
                     <input type="file"/>
                 </div>
                     <h1 className="title">Gallery</h1>
-                    {this.state.pictures !== undefined ? this.state.pictures.map(pictures => <Picture pic={pictures.picture}/>) : null}
+                    {this.state.pictures !== undefined ? this.state.pictures.map(pictures => <Picture pic={pictures.picture} title={pictures.title}/>) : null}
                 </div>
             </div>
         )

@@ -1,7 +1,15 @@
-import sunshineMountain from './sunshine-mountain.jpg';
-import manMountain from './man-mountain.jpg'
-import desertMoutain from './desert-mountain.jpg';
-import colorfulLandscape from './colorful-landscape.jpg';
+import sunshineMountain from './smallImages/sunshine-mountain.jpg';
+import manMountain from './smallImages/man-mountain.jpg'
+import desertMoutain from './smallImages/desert-mountain.jpg';
+import colorfulLandscape from './smallImages/colorful-landscape.jpg';
+import beachSunset from './smallImages/beach-sunset.jpg';
+import bigRockBeach from './smallImages/big-rock-beach.jpg';
+import motherlyLoveOnBeach from './smallImages/motherly-love-on-beach.jpg';
+import porchViewOfBeach from './smallImages/porch-view-of-beach.jpg';
+import sunsetCottage from './smallImages/sunset-cottage.jpg';
+import lilacFarm from './smallImages/lilac-farm.jpg';
+import beautyAtItsFinest from './smallImages/beauty-at-its-finest.jpg';
+import beautifulFarm from './smallImages/beautiful-farm.jpg';
 
 export const pictures = [
     {
@@ -33,57 +41,57 @@ export const pictures = [
         id: 4
     },
     {
-        title: '',
-        picture: '',
+        title: 'The Sunset at the Beach',
+        picture: beachSunset,
         text: '',
         flipped: false,
         id: 5
     },
     {
-        title: '',
-        picture: '',
+        title: 'Big Rocks on the Beach',
+        picture: bigRockBeach,
         text: '',
         flipped: false,
         id: 6
     },
     {
-        title: '',
-        picture: '',
+        title: 'Mother and Son on Beach',
+        picture: motherlyLoveOnBeach,
         text: '',
         flipped: false,
         id: 7
     },
     {
-        title: '',
-        picture: '',
+        title: 'Porch View of Beach',
+        picture: porchViewOfBeach,
         text: '',
         flipped: false,
         id: 8
     },
     {
-        title: '',
-        picture: '',
+        title: 'Sunset Cottage',
+        picture: sunsetCottage,
         text: '',
         flipped: false,
         id: 9
     },
     {
-        title: '',
-        picture: '',
+        title: 'Farm of Lilacs',
+        picture: lilacFarm,
         text: '',
         flipped: false,
         id: 10
     },
     {
-        title: '',
-        picture: '',
+        title: 'Beauty At Its Finest',
+        picture: beautyAtItsFinest,
         text: '',
         flipped: false,
         id: 11
     },
     {
-        title: '',
-        picture: '',
+        title: 'Beautiful Sunset over Farm',
+        picture: beautifulFarm,
         text: '',
         flipped: false,
         id: 12

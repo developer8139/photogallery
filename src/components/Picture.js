@@ -1,4 +1,4 @@
-export const Picture = ({pic}) => {
+export const Picture = ({pic, title}) => {
     return (
         <div className="container">
             <div className="img-container">
@@ -6,7 +6,8 @@ export const Picture = ({pic}) => {
                     <img className="image" src={pic} alt="gallery-scene"/>
                 </div>
                 <div className="img-back">
-                    <p>{pic.text}</p>
+                    <p>{title}</p>
+                    <button>Click To See Larger Image</button>
                 </div>
             </div>
         </div>
