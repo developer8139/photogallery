@@ -10,12 +10,16 @@ import sunsetCottage from './smallImages/sunset-cottage.jpg';
 import lilacFarm from './smallImages/lilac-farm.jpg';
 import beautyAtItsFinest from './smallImages/beauty-at-its-finest.jpg';
 import beautifulFarm from './smallImages/beautiful-farm.jpg';
+import greenSunrise from './smallImages/green-sunrise.jpg';
+import treeOfLife from './smallImages/tree-of-life.jpg';
+import sillouette from './smallImages/silouette.jpg';
+import theDream from './smallImages/thedream.jpg';
 
 export const pictures = [
     {
         title: 'Sunshine Mountain',
         picture: sunshineMountain,
-        text: 'This picture is absolutly stunning. It was taken by the photographer Sagui Andrea. This shows the sunrise coming over the mountains in the background. In the forground he has lush brush and giant rock that is part of the mountian he is standing on.',
+        text: 'This picture is absolutely stunning. It was taken by the photographer Sagui Andrea. This shows the sunrise coming over the mountains in the background. In the forground he has lush brush and giant rock that is part of the mountian he is standing on.',
         flipped: false,
         id: 1
     },
@@ -97,29 +101,29 @@ export const pictures = [
         id: 12
     },
     {
-        title: '',
-        picture: '',
+        title: 'The Green Sunrise',
+        picture: greenSunrise,
         text: '',
         flipped: false,
         id: 13
     },
     {
-        title: '',
-        picture: '',
+        title: 'The Tree of Life',
+        picture: treeOfLife,
         text: '',
         flipped: false,
         id: 14
     },
     {
-        title: '',
-        picture: '',
+        title: 'Silouette',
+        picture: sillouette,
         text: '',
         flipped: false,
         id: 15
     },
     {
-        title: '',
-        picture: '',
+        title: 'The Dream',
+        picture: theDream,
         text: '',
         flipped: false,
         id: 16
