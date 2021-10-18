@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {v4 as uuidv4} from 'uuid'
 import {pictures} from '../data/Pictures';
 import {Picture} from './Picture';
 
@@ -15,7 +16,7 @@ export default class Gallery extends Component {
         const img = {
             title: '',
             picture: URL.createObjectURL(this.picRef.current.files[0]),
-            id: 20
+            id: uuidv4()
         }
 
         this.setState({pictures: [...pictures, img]})

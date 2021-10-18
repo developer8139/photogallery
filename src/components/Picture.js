@@ -14,7 +14,7 @@ export const Picture = ({pic, title, text}) => {
         <div onClick={() => setFlipp(!flipp)} className={flipp ? "container2" : "container"}>
             <div className="img-container">
                 <div className="img-front">
-                    <img className="image" src={pic} alt="gallery-scene"/>
+                    <img width="250" height="200" className="image" src={pic} alt="gallery-scene"/>
                 </div>
                 <div className="img-back">
                     <p>{title}</p>
